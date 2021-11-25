@@ -23,7 +23,6 @@ export const projects = [
       image: '/images/3.png',
       tags: ['Python'],
     source: 'https://github.com/ayeman-b-salauddin/interpreter',
-    // visit: 'https://google.com',
     id: 2,
   },
   {
@@ -31,8 +30,7 @@ export const projects = [
     description: "This is my portfolio that you are seeing right now.",
     image: '/images/4.png',
     tags: ['React', 'NextJS', 'Styled Components'],
-    source: 'https://google.com',
-    // visit: 'https://google.com',
+    source: 'https://github.com/ayeman-b-salauddin/portfolio',
     id: 3,
   },
 ];
