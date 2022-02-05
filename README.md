@@ -2,7 +2,7 @@
 
 ![Portfolio Website](https://i.ibb.co/TbJTHbk/3.png)
 
-This is my [`portfolio`](https://ayeman-b-salauddin.vercel.app/) project bootstrapped with create-next-app.
+This is my [`portfolio`](https://ayeman-b-salauddin.vercel.app/) project bootstrapped with Next.js
 
 ## Getting Started
 First, install dependencies:
