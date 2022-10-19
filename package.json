@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build": "next build && next start"
+    "build": "next build"
   },
   "dependencies": {
     "emailjs": "^3.6.0",
