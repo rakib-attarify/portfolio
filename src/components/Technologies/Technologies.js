@@ -1,31 +1,36 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skill</SectionTitle>
     <SectionText>
-      Here are some of the technologies I have worked with. I am willing to learn new techonologies, from web to mobile, I am open to learn any tech stack.
+      As a team-member of a fast growing company, my responsibilities grew
+      significantly. Here are some of expertise :
     </SectionText>
     <List>
       <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Attarify</ListTitle>
           <ListParagraph>
-            Experieced in <br />
-            React.js and Next.js <br />
-            <br />
-            Familiar with Vue.js
+            Leadership, Team-player, Excellent Communicator, Management <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
         <picture>
           <DiFirebase size="3rem" />
         </picture>
@@ -36,7 +41,7 @@ const Technologies = () =>  (
             Python and Django
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
     </List>
     <SectionDivider colorAlt />
   </Section>

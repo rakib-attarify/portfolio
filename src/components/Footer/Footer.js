@@ -1,8 +1,12 @@
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import {
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -10,13 +14,13 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+8801710129029">+88-01710-129029</LinkItem>
+          <LinkItem href="tel:+8801710129029">+880 1893-546089</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:ayemanbsalauddin@gmail.com">
-            ayemanbsalauddin@gmail.com
-          </LinkItem>
+          {/* <LinkItem href="mailto:">
+            
+          </LinkItem> */}
         </LinkColumn>
       </LinkList>
     </FooterWrapper>

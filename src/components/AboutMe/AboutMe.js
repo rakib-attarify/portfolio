@@ -1,15 +1,21 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
-
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
 
 const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am Ayeman B. Salauddin. I am looking for a opportunity to gain experience, learn new things and to contribute.
+        A result-driven individual with a passion for fine aromas. I hail from
+        Barishal, which is located in the souther part of Bangladesh. I studied
+        Physics, Chemistry, Biology as my academic studies. Currently, I am
+        working at Attarify to serve our customer's need.
       </SectionText>
       <SectionDivider />
     </Section>
